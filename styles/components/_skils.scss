@@ -1,0 +1,19 @@
+.skils__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skils__icon {
+    display: block;
+    width: 33px;
+    height: 33px;
+    align-self: center;
+}
+
+.skils__item {
+    width: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}

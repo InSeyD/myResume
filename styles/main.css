@@ -4,8 +4,79 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: rgba(241, 255, 253, 0.3098039216);
 }
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.about {
+  background-color: rgba(3, 169, 244, 0.2509803922);
+}
+
+.about__list {
+  text-align: center;
+}
+
+.about__item {
+  margin-top: 20px;
+}
+.about__item-title {
+  margin-bottom: 10px;
+}
+
+.skils__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skils__icon {
+  display: block;
+  width: 33px;
+  height: 33px;
+  align-self: center;
+}
+
+.skils__item {
+  width: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.info__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info__speciality {
+  margin: 20px;
+  font-size: 30px;
 }/*# sourceMappingURL=main.css.map */

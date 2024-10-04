@@ -1,0 +1,15 @@
+.about {
+    background-color: #03a9f440;
+}
+
+.about__list {
+    text-align: center;
+}
+
+.about__item {
+    margin-top: 20px;
+
+    &-title {
+        margin-bottom: 10px;
+    }
+}
