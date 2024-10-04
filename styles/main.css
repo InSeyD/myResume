@@ -39,6 +39,10 @@ ul {
   background-color: rgba(3, 169, 244, 0.2509803922);
 }
 
+.about__photo {
+  max-width: 223px;
+}
+
 .about__list {
   text-align: center;
 }
@@ -79,4 +83,8 @@ ul {
 .info__speciality {
   margin: 20px;
   font-size: 30px;
+}
+
+.info__name {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
